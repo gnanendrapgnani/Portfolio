@@ -1,0 +1,183 @@
+.header {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #14131a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -60px;
+    position: fixed;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.adminBtn {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: #00ff19;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.adminBtn:hover {
+    background-color: #9bdda2c4;
+    color: white;
+}
+.adminImg {    
+    width: 25px;
+    height: 27px;
+    text-align: center;    
+    margin-left: 5px; 
+}
+.dark{
+    background-color: #f0f0f0;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  font-family: inherit;
+}
+
+.switchButton {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 25px;
+}
+
+.switchButton .switchOuter {
+  height: 100%;
+  background: #252532;
+  width: 50px;
+  border-radius: 165px;
+  -webkit-box-shadow: inset 0px 5px 10px 0px #16151c, 0px 3px 6px -2px #403f4e;
+  box-shadow: inset 0px 5px 10px 0px #16151c, 0px 3px 6px -2px #403f4e;
+  border: 1px solid #32303e;
+  padding: 6px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.switchButton .switchOuter input[type="checkbox"] {
+  opacity: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
+.switchButton .switchOuter .buttonToggle {
+  height: 20px;
+  width: 20px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#3b3a4e),
+    to(#272733)
+  );
+  background: -o-linear-gradient(#3b3a4e, #272733);
+  background: linear-gradient(#3b3a4e, #272733);
+  border-radius: 100%;
+  -webkit-box-shadow: inset 0px 5px 4px 0px #424151, 0px 4px 15px 0px #0f0e17;
+  box-shadow: inset 0px 5px 4px 0px #424151, 0px 4px 15px 0px #0f0e17;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: left 0.3s ease-in;
+  -o-transition: left 0.3s ease-in;
+  transition: left 0.3s ease-in;
+  left: 0;
+  top: -6px;
+}
+
+.switchButton
+  .switchOuter
+  input[type="checkbox"]:checked
+  + .button
+  .buttonToggle {
+  left: 58%;
+}
+
+.switchButton
+  .switchOuter
+  input[type="checkbox"]:checked
+  + .button
+  .buttonIndicator {
+  -webkit-animation: indicator 1s forwards;
+  animation: indicator 1s forwards;
+}
+
+.switchButton .switchOuter .button {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.switchButton .switchOuter .buttonIndicator {
+  height: 15px;
+  width: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 3px solid #ef565f;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  right: 0px;
+  position: relative;
+}
+
+@-webkit-keyframes indicator {
+  30% {
+    opacity: 0;
+  }
+
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    border: 3px solid #60d480;
+    left: -68%;
+  }
+}
+
+@keyframes indicator {
+  30% {
+    opacity: 0;
+  }
+
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    border: 3px solid #60d480;
+    left: -68%;
+  }
+}

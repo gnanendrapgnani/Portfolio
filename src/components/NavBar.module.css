@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar{
+    position: fixed;
+    max-width: 30%;
+    min-width: 184px;
+    padding: 0 0 0px 17px;
+    background-color: #565656;
+    border-radius: 9px;
+}
+.list{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 12px;
+}
+
+h1{
+    color: rgb(209, 209, 209);    
+    text-align: left;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0px;
+    color: rgb(209, 209, 209);    
+    gap: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

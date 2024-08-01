@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    display: flex;
+}
+.rightFlex{
+    max-width: 30%;
+    min-width: 190px;
+    margin: 10px;
+}
+.leftFlex{
+    width: 100%;
+}
