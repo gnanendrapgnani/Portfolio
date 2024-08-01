@@ -3,7 +3,7 @@
 .navbar{
     position: fixed;
     max-width: 30%;
-    min-width: 184px;
+    min-width: 200px;
     padding: 0 0 0px 17px;
     background-color: #565656;
     border-radius: 9px;
