@@ -1,10 +1,12 @@
-import styles from './AdminPage.module.css'
-import AdminLogin from './AdminLogin'
+import styles from "./AdminPage.module.css";
+import AdminLogin from "./AdminLogin";
 
 function AdminPage() {
-    return <>
-    <AdminLogin />
+  return (
+    <>
+      <AdminLogin />
     </>
+  );
 }
 
 export default AdminPage;

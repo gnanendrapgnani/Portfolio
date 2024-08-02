@@ -1,16 +1,14 @@
-
-import Header from './components/Header'
-import HomePage from './components/HomePage'
-import './App.css'
+import Header from "./components/Header";
+import HomePage from "./components/HomePage";
+import "./App.css";
 
 function App() {
-
   return (
     <>
-     <Header />
-     <HomePage />
+      <Header />
+      <HomePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

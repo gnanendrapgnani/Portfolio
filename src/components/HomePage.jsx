@@ -13,6 +13,7 @@ function HomePage() {
         <div className={styles.leftFlex}>
           <Profile image={image} />
         </div>
+
       </div>
     </>
   );
