@@ -2,6 +2,7 @@ import NavBar from "./NavBar";
 import styles from "./HomePage.module.css";
 import Profile from "./Profile";
 import image from "../assets/images/gnani.png";
+import Experience from "./Experience";
 
 function HomePage() {
   return (
@@ -12,8 +13,8 @@ function HomePage() {
         </div>
         <div className={styles.leftFlex}>
           <Profile image={image} />
+          <Experience />
         </div>
-
       </div>
     </>
   );
